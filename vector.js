@@ -22,7 +22,7 @@ class vector {
     if (a instanceof vector) {
       return new vector(this.x * a.x, this.y * a.y, this.z * a.z)
     } else {
-      return new vector(this.x *= a, this.y *= a, this.z *= a)
+      return new vector(this.x * a, this.y * a, this.z * a)
     }
   }
   init(x, y, z) {
